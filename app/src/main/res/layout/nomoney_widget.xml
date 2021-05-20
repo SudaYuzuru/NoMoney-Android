@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trans"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.Tally.AppWidgetContainer">
+
+    <ImageView
+        android:id="@+id/widget_money"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@id/appwidget_button"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/f7"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/appwidget_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="@color/trans"
+        android:contentDescription="@string/appwidget_button"
+        android:text="@string/appwidget_button"
+        android:textColor="@color/rose"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

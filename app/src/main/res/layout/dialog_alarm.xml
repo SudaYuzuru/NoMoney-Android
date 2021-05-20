@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <TimePicker
+        android:id="@+id/dialog_alarm_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog_alarm_btn_cancel"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textColor="@color/deeppink"
+        android:layout_below="@id/dialog_alarm_dp"
+        android:layout_toLeftOf="@id/dialog_alarm_btn_set"
+        android:background="@null"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/dialog_alarm_btn_set"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ensure"
+        android:textColor="@color/deeppink"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dialog_alarm_dp"
+        android:background="@null"
+        android:layout_marginRight="20dp"/>
+</RelativeLayout>
