@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="grey_f3f3f3">#f3f3f3</color>
+    <color name="grey_7D7D7D">#7D7D7D</color>
+    <color name="white">#ffffff</color>
+    <color name="green_006400">#F299E7FF</color>
+    <color name="blue_D399E7FF">#D399E7FF</color>
+    <color name="grey_other">#63858787</color>
+    <color name="grey">#63C3C6C8</color>
+    <color name="blue_dark">#19459E</color>
+    <color name="grey_deep">#C4E1DFDF</color>
+    <color name="yellow">#F8CD4C</color>
+    <color name="blue_deep">#3F63AA</color>
+    <color name="grey_more">#88D5DADD</color>
+    <color name="white_whatever">#B0FFFFFF</color>
+    <color name="pink">#D2FFC0CB</color><!--粉红色 -->
+    <color name="rose">#C9FFE4E1</color><!--浅玫瑰色 -->
+    <color name="lightpink">#ffb6c1</color><!--亮粉红色 -->
+    <color name="deeppink">#ff1493</color><!--深粉红色 -->
+    <color name="hotpink">#ff69b4</color><!--热粉红色 -->
+    <color name="mistyrose">#ffe4e1</color><!--浅玫瑰色 -->
+    <color name="powderblue">#b0e0e6</color><!--粉蓝色 -->
+    <color name="lightblue">#E6F1FDFF</color>
+    <color name="pink_whatever">#70ffc0cb</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color><!--粉红色 -->
+    <color name="trans">#00000000</color>
+    <color name="load_red">#fa007a</color>
+    <color name="load_purple">#935fe7</color>
+    <color name="load_yellow">#f9b11f</color>
+    <color name="load_blue">#009cfa</color>
+</resources>

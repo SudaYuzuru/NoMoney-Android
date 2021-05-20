@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/alarm">
+    <RelativeLayout
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/rose">
+        <ImageView
+            android:id="@+id/alarm_iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/it_back"
+            android:onClick="onClick"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/message_alarm"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <TimePicker
+        android:id="@+id/dialog_alarm_dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/alarm"
+        android:background="@color/grey" />
+    <Button
+        android:id="@+id/alarm_btn_set"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/main_recordbtn_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/add_alarm"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/add_alarm"
+        android:gravity="center_vertical"/>
+</RelativeLayout>

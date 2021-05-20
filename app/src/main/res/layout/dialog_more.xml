@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/lightblue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_more_btn_about"
+            style="@style/dialogmoreStyle"
+            android:background="@drawable/more_item_bg"
+            android:drawableTop="@mipmap/it_about"
+            android:text="@string/about"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_setting"
+            style="@style/dialogmoreStyle"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/more_item_bg"
+            android:drawableTop="@mipmap/it_setting"
+            android:text="@string/setting"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_record"
+            style="@style/dialogmoreStyle"
+            android:background="@drawable/more_item_bg"
+            android:drawableTop="@mipmap/it_history"
+            android:text="@string/history_record"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/dialog_more_btn_info"
+            style="@style/dialogmoreStyle"
+            android:background="@drawable/more_item_bg"
+            android:drawableTop="@mipmap/it_detail"
+            android:text="@string/account_info"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_alarm"
+            style="@style/dialogmoreStyle"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/more_item_bg"
+            android:drawableTop="@mipmap/it_alarm"
+            android:text="@string/message_alarm"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_smallbox"
+            style="@style/dialogmoreStyle"
+            android:background="@drawable/more_item_bg"
+            android:drawableTop="@mipmap/it_smallbox"
+            android:text="@string/desktop_smallbox"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/dialog_more_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ih_error"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
